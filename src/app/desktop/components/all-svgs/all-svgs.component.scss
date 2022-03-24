@@ -2,3 +2,25 @@
 .nav-logo>path {
     fill: $primary-color;
 }
+
+.nav-brands {
+    margin-top: 1%;
+}
+
+.nav-brands>li>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-brands>li>div>svg {
+    width: 70%;
+}
+
+.nav-brands>li:nth-child(2)>svg {
+    width: 60%;
+}
+
+.nav-brands>li>div>svg>path {
+    fill: black !important;
+}

@@ -11,7 +11,7 @@
     background: -o-linear-gradient(-45deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
     background: -ms-linear-gradient(-45deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
     background: linear-gradient(135deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
-    height: fit-content;
+    height: 90vh;
 }
 
 .nav-title {
@@ -40,6 +40,31 @@
     border-radius: 25px;
     font-size: 10pt;
     padding: 4px 30px;
+}
+
+.hp-title {
+    font-size: 30pt;
+    color: black;
+    text-align: center;
+    width: 40%;
+    font-weight: 600;
+}
+
+.hp-price {
+    color: black;
+    text-align: center;
+    font-size: 48pt;
+    font-weight: 700;
+}
+
+.hp-price>.rupee {
+    font-size: 24pt;
+    vertical-align: text-top;
+}
+
+.timemo {
+    font-size: 18pt;
+    color: black;
 }
 
 @media only screen and (max-width: 700px) {

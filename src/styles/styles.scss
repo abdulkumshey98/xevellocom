@@ -30,3 +30,10 @@ h6,
 td {
     font-family: 'Poppins', sans-serif !important;
 }
+
+span.rupee::before {
+    font-family: "Material Icons" !important;
+    content: "\eaf7" !important;
+    margin-left: 12px;
+    vertical-align: middle;
+}

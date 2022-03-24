@@ -121,6 +121,10 @@
     border: 1px solid $primary-color;
 }
 
+.uk-navbar-container.uk-navbar-sticky>div>:host ::ng-deep .lang-icon {
+    color: $primary-color;
+}
+
 .uk-navbar-container.uk-navbar-sticky>div>:host ::ng-deep .uk-navbar-dropdown {
     border-radius: 0px !important;
 }
