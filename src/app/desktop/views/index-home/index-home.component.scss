@@ -1,0 +1,55 @@
+@import 'styles';
+::ng-deep .navbar {
+    background: none !important;
+}
+
+.nav-container {
+    background: rgba(242, 225, 217, 1);
+    background: -moz-linear-gradient(-45deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(242, 225, 217, 1)), color-stop(51%, rgba(242, 225, 217, 1)), color-stop(51%, rgba(235, 164, 141, 1)), color-stop(100%, rgba(235, 164, 141, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
+    background: linear-gradient(135deg, rgba(242, 225, 217, 1) 0%, rgba(242, 225, 217, 1) 51%, rgba(235, 164, 141, 1) 51%, rgba(235, 164, 141, 1) 100%);
+    height: fit-content;
+}
+
+.nav-title {
+    font-size: 50pt;
+    font-weight: 800;
+    width: 80%;
+    color: black !important;
+    font-family: 'Playfair Display', sans-serif !important;
+    text-align: left;
+}
+
+.nav-details {
+    font-size: 12pt;
+    color: black;
+    width: 80%;
+}
+
+.nav-img {
+    border-radius: 8px;
+}
+
+.home-gs {
+    background-color: $primary-color;
+    color: white;
+    text-transform: capitalize;
+    border-radius: 25px;
+    font-size: 10pt;
+    padding: 4px 30px;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav-title {
+        font-size: 28pt;
+    }
+    .nav-img {
+        height: 290px;
+    }
+    .nav-container {
+        height: fit-content;
+    }
+}
